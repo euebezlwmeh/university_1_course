@@ -1,7 +1,7 @@
 # 3_laba
 ## 7 вариант 
 ### Условие 1 задачи 
-![image](https://github.com/gwoso/3_laba/assets/150545779/2f6d36da-8292-46d0-9ea4-1bd96551dec5)
+![image](https://github.com/chernyavish/university/assets/150545779/5782c07e-e325-4832-b501-b00868bad3cd)
 ### Алгоритм (рекурсия)
 1. Создаём функцию `create_n_dim_array`, принимающую на вход значения `n`, `x`
 2. Если `n <= 1`, то выводим `"\t"*(level-2), [f'level {level - 1}']*x`
@@ -17,7 +17,7 @@
 ### Результат
 ![image](https://github.com/gwoso/3_laba/assets/150545779/c222f3dc-8a4c-4f65-9324-f2fa3c377ead)
 ### Условие 2 задачи
-![image](https://github.com/gwoso/3_laba/assets/150545779/fd6adbb2-9c20-424d-80c3-61718cc33d3b)
+![image](https://github.com/chernyavish/university/assets/150545779/dff78851-0b72-4bb2-8aa1-90441e205f90)
 ### Алгоритм (рекурсия)
 1. Вводим создаём функцию `func`, которая примет на вход значения `x`, `k`
 2. Проверяем `x` на положительность
