@@ -37,4 +37,6 @@
 6. Возвращаем и принтуем результат при `x = 1` и `k = 3`
 ### Результат 
 ![image](https://github.com/chernyavish/university/assets/150545779/48dec9f6-5c5d-4034-b21f-2bceb9e1e980)
-
+### Источники 
+1. [Цикл for в Python — как работает, синтаксис, примеры](https://pythonchik.ru/osnovy/cikl-for-v-python)
+2. [Рекурсия в Pyhton](https://www.codecamp.ru/blog/python-recursion/)
