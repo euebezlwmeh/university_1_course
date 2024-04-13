@@ -1,23 +1,23 @@
 # 3_laba
 ## 7 вариант 
 ### Условие 1 задачи 
-![image](https://github.com/gwoso/3_laba/assets/150545779/2f6d36da-8292-46d0-9ea4-1bd96551dec5)
+![image](https://github.com/chernyavish/university/assets/150545779/5782c07e-e325-4832-b501-b00868bad3cd)
 ### Алгоритм (рекурсия)
 1. Создаём функцию `create_n_dim_array`, принимающую на вход значения `n`, `x`
 2. Если `n <= 1`, то выводим `"\t"*(level-2), [f'level {level - 1}']*x`
 3. Иначе выводим скобки с отступами, вызываем рекурсю, при которой `n-1`, a `level + 1`
 4. Вызываем функцию. Пусть `n = 2`, `x = 3`
 ### Результат
-![image](https://github.com/gwoso/3_laba/assets/150545779/12e28707-6298-4570-a624-2766dbf6b9cf)
+![image](https://github.com/chernyavish/university/assets/150545779/02e07a16-1cb3-4444-827d-1579e986a24e)
 ### Алгоритм (без рекурсии)
 1. Создаём функцию `create_n_dim_array`, принимающую на вход значения `n`, `x`
 2. Первый и третий циклы `for` нужны для вывода "внешних" скобок
 3. Второй цикл `for` выводит значения `level n` и скобки между ними
 4. Вызываем функцию. Пусть `n = 2`, `x = 3`
 ### Результат
-![image](https://github.com/gwoso/3_laba/assets/150545779/c222f3dc-8a4c-4f65-9324-f2fa3c377ead)
+![image](https://github.com/chernyavish/university/assets/150545779/be18d1f1-d7e8-43e9-a00e-892602168229)
 ### Условие 2 задачи
-![image](https://github.com/gwoso/3_laba/assets/150545779/fd6adbb2-9c20-424d-80c3-61718cc33d3b)
+![image](https://github.com/chernyavish/university/assets/150545779/dff78851-0b72-4bb2-8aa1-90441e205f90)
 ### Алгоритм (рекурсия)
 1. Вводим создаём функцию `func`, которая примет на вход значения `x`, `k`
 2. Проверяем `x` на положительность
@@ -27,7 +27,7 @@
 6. Функция `y_k` считает значение `yk` через рекурсию
 7. Выводим результат функции при `x = 1` и `k = 3`
 ### Результат
-![image](https://github.com/gwoso/3_laba/assets/150545779/c71cbcc1-6f97-4ab5-9692-53e7afde0453)
+![image](https://github.com/chernyavish/university/assets/150545779/a6eba646-10cd-40a8-9d24-a2b708668d34)
 ### Алгоритм (без рекурсии)
 1. Вводим создаём функцию `func`, которая примет на вход значения `x`, `k`
 2. Проверяем `x` на положительность
@@ -36,4 +36,7 @@
 5. Высчитвыаем значения `bk` и `yk`
 6. Возвращаем и принтуем результат при `x = 1` и `k = 3`
 ### Результат 
-![image](https://github.com/gwoso/3_laba/assets/150545779/079aa67c-832b-4f19-a4ca-283e40b9a6e0)
+![image](https://github.com/chernyavish/university/assets/150545779/48dec9f6-5c5d-4034-b21f-2bceb9e1e980)
+### Источники 
+1. [Цикл for в Python — как работает, синтаксис, примеры](https://pythonchik.ru/osnovy/cikl-for-v-python)
+2. [Рекурсия в Pyhton](https://www.codecamp.ru/blog/python-recursion/)
