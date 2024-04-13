@@ -3,23 +3,28 @@
 # в зависимости от типа данных в них.
 # К генератору должна быть применена хотя бы одна из функций map, reduce, filter.
 
+from functools import reduce 
+
 def genFunc(seq1, seq2, func):
     if isinstance(seq1, list) and isinstance(seq2, list):
-        res = list(func(seq1, seq2))
+        for i in list(map(func, seq1, seq2)):
+            yield i
     elif isinstance(seq1, str) and isinstance(seq2, str):
-        res = ''.join(func(seq1, seq2))
+        for i in list(map(func, seq1, seq2)):
+            yield i
     else:
         raise ValueError("Unsupported data types")
 
-    yield res
+def f1(a, b):
+    return a + b #sum
 
-def f1(seq1, seq2):
-    return list(map(lambda x, y: x + y, seq1, seq2)) #sum
+def f2(a, b):
+    return a * b #mult
 
-def f2(seq1, seq2):
-    return list(map(lambda x, y: x * y, seq1, seq2)) #mult
+seq1 = 'abc'
+seq2 = 'def'
 
-seq1 = [1,2,3]
-seq2 = [4,5,6]
+for res in genFunc(seq1, seq2, f1):
+    print(res)
 
-print(next(genFunc(seq1, seq2, f2)))
+print(reduce(f1, genFunc(seq1, seq2, f1)))
