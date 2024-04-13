@@ -15,7 +15,7 @@
 3. Второй цикл `for` выводит значения `level n` и скобки между ними
 4. Вызываем функцию. Пусть `n = 2`, `x = 3`
 ### Результат
-![image](https://github.com/gwoso/3_laba/assets/150545779/c222f3dc-8a4c-4f65-9324-f2fa3c377ead)
+![image](https://github.com/chernyavish/university/assets/150545779/be18d1f1-d7e8-43e9-a00e-892602168229)
 ### Условие 2 задачи
 ![image](https://github.com/chernyavish/university/assets/150545779/dff78851-0b72-4bb2-8aa1-90441e205f90)
 ### Алгоритм (рекурсия)
