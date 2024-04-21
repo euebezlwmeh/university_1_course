@@ -6,3 +6,6 @@
 ![image](https://github.com/chernyavish/university/assets/150545779/33e3e49c-9d36-4143-801d-d2cb420a88d4)
 ## Алгоритм
 ## Результат
+## Источники
+1. [#50. Пакеты (package) в Python. Вложенные пакеты | Python для начинающих](https://www.youtube.com/watch?v=6K1f0DvW1uM&t=532s)
+2. [Toga 0.4.2](https://toga.readthedocs.io/en/stable/index.html)
