@@ -9,3 +9,4 @@
 ## Источники
 1. [#50. Пакеты (package) в Python. Вложенные пакеты | Python для начинающих](https://www.youtube.com/watch?v=6K1f0DvW1uM&t=532s)
 2. [Toga 0.4.2](https://toga.readthedocs.io/en/stable/index.html)
+3. [venv — Creation of virtual environments — Python 3.12.3 documentation](https://docs.python.org/3/library/venv.html)
