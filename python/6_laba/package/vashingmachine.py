@@ -9,8 +9,8 @@ def vashingmachine_func():
     vashingmachine_calculate_A_box = toga.Box()
     vashingmachine_calculate_C_box = toga.Box()
     calculator3_box = toga.Box()
-
     vashingmachine_box = toga.Box()
+    
     vashingmachine_calculate_A = toga.Box()
     vashingmachine_calculate_C = toga.Box()
 

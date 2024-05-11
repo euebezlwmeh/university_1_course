@@ -9,8 +9,8 @@ def iron_func():
     iron_calculate_A_box = toga.Box()
     iron_calculate_C_box = toga.Box()
     calculator1_box = toga.Box()
-
     iron_box = toga.Box()
+    
     iron_calculate_A = toga.Box()
     iron_calculate_C = toga.Box()
 

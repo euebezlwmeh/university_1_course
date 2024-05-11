@@ -9,8 +9,8 @@ def tv_func():
     tv_calculate_A_box = toga.Box()
     tv_calculate_C_box = toga.Box()
     calculator2_box = toga.Box()
-
     tv_box = toga.Box()
+    
     tv_calculate_A = toga.Box()
     tv_calculate_C = toga.Box()
 
