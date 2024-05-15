@@ -14,3 +14,4 @@
 2. [Изучение Python Kivy за 7 минут в одном видео! - YouTube](https://www.youtube.com/watch?v=a8RXdWeeO9I)
 3. [Уроки Python с нуля / #17 – Основы ООП. Создание класса и объекта - YouTube](https://www.youtube.com/watch?v=gFRa6qVN980)
 4. [Dunder-методы в Python: зачем они нужны и что могут](https://tproger.ru/articles/dunder-metody-zachem-oni-nuzhny-i-chto-mogut)
+5. [Магические методы в python. Dunder методы - YouTube](https://www.youtube.com/watch?v=hUz5m1SDYaQ)
