@@ -3,7 +3,6 @@ from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
-from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.dropdown import DropDown 
 from abc import ABC, abstractmethod
@@ -13,11 +12,23 @@ class Calculator(ABC):
     def calculate(self):  
         pass
 
+    def __call__(self, instance):
+        electricity = self.calculate(instance) 
+        coast = self.calculate(instance)
+
+        print(f"Потребление электроэнергии: {electricity:.2f} кВт")
+        print(f"Стоимость: {coast:.2f} руб ")
+
 class myApp(App, Calculator):
+
+    def __str__(self): 
+        return f"Электроприбор: {self.electrodevice_button.text}"
+
+    def __repr__(self):
+        return f"(electrodevice={self.electrodevice_button.text})"
 
     def build(self):
         layout = GridLayout(cols=2, row_force_default = True, row_default_height = 30)
-        box = BoxLayout()
 
         electrodevice_label = Label(text="Бытовая техника: ")
         self.electrodevice_dropdown = DropDown()
