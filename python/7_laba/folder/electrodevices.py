@@ -10,4 +10,4 @@ iron = Electrodevice("Утюг", 1)
 tv = Electrodevice("ТВ", 0.08)
 vashingMachine = Electrodevice("Стиральная машина", 1.5)
 
-print(iron, tv, vashingMachine)
+# print(iron, tv, vashingMachine)
