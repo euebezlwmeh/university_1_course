@@ -1,8 +1,14 @@
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN
+from toga import Label
+from toga import Window
 
-class PasswordManager(toga.App):
+class MyError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
+class PasswordManager(toga.App, MyError):
     def __init__(self, **kwargs):
         super().__init__(formal_name="Password Manager", app_id="pswrdmngr", **kwargs)
 
@@ -19,10 +25,13 @@ class PasswordManager(toga.App):
             headings=["Service", "Username", "Password"],
         )
 
+        self.error_label = toga.Label(text='')
+
         main_box.add(service_input)
         main_box.add(username_input)
         main_box.add(password_input)
         main_box.add(save_button)
+        main_box.add(self.error_label)
         main_box.add(self.table)
 
         self.main_window = toga.MainWindow(title=self.formal_name)
@@ -35,17 +44,21 @@ class PasswordManager(toga.App):
         password = widget.parent.children[2].value
 
         try:
-            if not service or not username or not password:
-                raise ValueError('Service, username, and password are required fields')
+            if not service:
+                raise MyError("Заполните поле Service")
+            elif not username:
+                raise MyError("Заполните поле Username")
+            elif not password:
+                raise MyError("Заполните поле Password")
 
             self.table.data.append([service, username, password])
+            self.error_label.text = ''
         
-        except ValueError as e:
-            print(f'Error: {e}')
-
+        except MyError as e:
+            self.error_label.text = f'Error: {e}'
 
 def main():
     return PasswordManager()
 
 if __name__ == '__main__':
-    main().main_loop()
+    main().main_loop()  

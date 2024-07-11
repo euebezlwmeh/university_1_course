@@ -9,7 +9,7 @@
 
 Пакет `folder` содержит в себе модули:
 - `docx_save.py`, отвечающий за сохранение данных в формате `.docx`
-- `electrodevices.py`, содержащий в себе класс `Electrodevice`, обозначающий имя и мощность для каждого электроприбора
+- `electrodevices.py`, содержащий в себе класс `Electrodevice`, обозначающий имя и мощность для каждого электроприбора. Содержит `@property`
 
 `7.py`, содержащий 2 класса: 
 1. `class Calculator` (абстрактный базовый класс) с абстрактным методом `calculate`
@@ -27,3 +27,4 @@
 4. [Dunder-методы в Python: зачем они нужны и что могут](https://tproger.ru/articles/dunder-metody-zachem-oni-nuzhny-i-chto-mogut)
 5. [Магические методы в python. Dunder методы - YouTube](https://www.youtube.com/watch?v=hUz5m1SDYaQ)
 6. [Managed attributes](https://senjun.ru/courses/python/chapters/python_chapter_0360/)
+7. [Работа декоратора @property в Python](https://sky.pro/media/rabota-dekoratora-property-v-python/)
