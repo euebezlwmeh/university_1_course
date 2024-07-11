@@ -1,6 +1,6 @@
 # 7 вариант
 ## Условие 1 задачи
-![image](https://github.com/gwoso/4_laba/assets/150545779/2b531bed-7f95-4a06-80d5-9bfbf3bfb61c)
+![alt text](image.png)
 ## Алгоритм
 1. __Создаём функцию `decorator`__, которая является декоратором.
 2. В это функции создаём обёртку `wrapper`, которая сможет принимать любое количество аргументов.
@@ -19,15 +19,15 @@
 15. Строка `heal, damage = hero()` присваивает возвращаемые функции из замыкания переменным `heal` И `damage`
 16. Выводим результат (отнимаем 30 хп и хиллим 40)
 ## Результат
-![image](https://github.com/gwoso/4_laba/assets/150545779/cf015d9c-c972-44dd-8d76-a3a02a898a7b)
+![alt text](image-2.png)
 ## Условие 2 задачи 
-![image](https://github.com/gwoso/4_laba/assets/150545779/dcf1cace-4fb7-4391-a48c-44e638d7fbf8)
+![alt text](image-1.png)
 ## Алгоритм
 1. Создаём декоратор, а в нём обёртку, которая не будет ничего возвращать.
 2. Инициализируем `simple func`, а перед ней используем декоратор
 3. Выводим на экран
 ## Результат
-![image](https://github.com/gwoso/4_laba/assets/150545779/7bed03ea-bbca-46ec-9df0-509176055def)
+![alt text](image-3.png)
 ## Источники
 1. [#44. Замыкания в Python | Python для начинающих - YouTube](https://www.youtube.com/watch?v=sJF7OMNgLUs)
 2. [#45. Введение в декораторы функций | Python для начинающих - YouTube](https://www.youtube.com/watch?v=v0qZPplzwUQ&t=385s)

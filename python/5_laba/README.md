@@ -1,6 +1,6 @@
 # 7 вариант
 ## Условие
-![image](https://github.com/chernyavish/university/assets/150545779/fe250450-a8f2-475c-b2d4-daed82d1cfd2)
+![alt text](image.png)
 ## Алгоритм
 1. Инициализируем `getfunc`, принимающий 2 последовательности и стратегию
 2. Далее проверяем последовательности на типы данных (`list`, `str`) и объединяем эти последовательности 
@@ -9,7 +9,7 @@
 5. Инициализируем 2 какие-либо последовательности и выводим результат
 6. Сворачиваем в последовательности в зависимости от типа данных в них с помощью `reduce`
 ## Результат
-![image](https://github.com/chernyavish/university/assets/150545779/4fe44e01-356b-4e89-8e02-6fd9ebb75154)
+![alt text](image-1.png)
 ## Список источников 
 1. [48 Генераторы и итераторы. Выражения -генераторы в Python - YouTube](https://www.youtube.com/watch?v=vn6bV6BYm7w)
 2. [49 Функция генератор. Создание генератора при помощи yield Python - YouTube](https://www.youtube.com/watch?v=8cMMO8fks-k&list=PLQAt0m1f9OHvv2wxPGSCWjgy1qER_FvB6&index=51)
