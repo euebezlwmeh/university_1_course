@@ -1,6 +1,6 @@
 # 7 вариант
 ## Условие 1 задачи
-![alt text](image.png)
+![alt text](images/image.png)
 ## Алгоритм
 1. __Создаём функцию `decorator`__, которая является декоратором.
 2. В это функции создаём обёртку `wrapper`, которая сможет принимать любое количество аргументов.
@@ -19,15 +19,15 @@
 15. Строка `heal, damage = hero()` присваивает возвращаемые функции из замыкания переменным `heal` И `damage`
 16. Выводим результат (отнимаем 30 хп и хиллим 40)
 ## Результат
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 ## Условие 2 задачи 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 ## Алгоритм
 1. Создаём декоратор, а в нём обёртку, которая не будет ничего возвращать.
 2. Инициализируем `simple func`, а перед ней используем декоратор
 3. Выводим на экран
 ## Результат
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 ## Источники
 1. [#44. Замыкания в Python | Python для начинающих - YouTube](https://www.youtube.com/watch?v=sJF7OMNgLUs)
 2. [#45. Введение в декораторы функций | Python для начинающих - YouTube](https://www.youtube.com/watch?v=v0qZPplzwUQ&t=385s)

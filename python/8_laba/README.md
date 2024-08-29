@@ -1,7 +1,7 @@
 # Менеджер паролей
-![alt text](image.png)
+![alt text](images/image.png)
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Описание
 
@@ -17,7 +17,7 @@
 3. Нажимаем кнопку `save` и в таблице появляются данные
 
 ## Результат
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ## Источники
 1. [Table - Toga 0.4.4](https://toga.readthedocs.io/en/stable/reference/api/widgets/table.html)

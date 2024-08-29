@@ -1,9 +1,9 @@
 ## Условие
-![alt text](image.png)
+![alt text](images/image.png)
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ## Алгоритм
 
@@ -17,9 +17,9 @@
 
 
 ## Результат
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 ## Источники
 1. [Welcome to Kivy — Kivy 2.3.0 documentation](https://kivy.org/doc/stable/)
 2. [Изучение Python Kivy](https://www.youtube.com/watch?v=a8RXdWeeO9I)
